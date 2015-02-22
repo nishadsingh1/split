@@ -14,6 +14,36 @@
 		D49AB4EF1A86CC1C00864398 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D49AB4EE1A86CC1C00864398 /* Images.xcassets */; };
 		D49AB4F21A86CC1C00864398 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D49AB4F01A86CC1C00864398 /* LaunchScreen.xib */; };
 		D49AB4FE1A86CC1C00864398 /* SplitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D49AB4FD1A86CC1C00864398 /* SplitTests.m */; };
+		D49AB50C1A86CCA000864398 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49AB50B1A86CCA000864398 /* AudioToolbox.framework */; };
+		D49AB50E1A86CCA400864398 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49AB50D1A86CCA400864398 /* CFNetwork.framework */; };
+		D49AB5101A86CCA900864398 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49AB50F1A86CCA900864398 /* CoreGraphics.framework */; };
+		D49AB5121A86CCAD00864398 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49AB5111A86CCAD00864398 /* CoreLocation.framework */; };
+		D49AB5141A86CCB100864398 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49AB5131A86CCB100864398 /* MobileCoreServices.framework */; };
+		D49AB5161A86CCB600864398 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49AB5151A86CCB600864398 /* QuartzCore.framework */; };
+		D49AB5181A86CCBC00864398 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49AB5171A86CCBC00864398 /* Security.framework */; };
+		D49AB51A1A86CCC000864398 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49AB5191A86CCC000864398 /* StoreKit.framework */; };
+		D49AB51C1A86CCC700864398 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49AB51B1A86CCC700864398 /* SystemConfiguration.framework */; };
+		D49AB51E1A86CCD100864398 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D49AB51D1A86CCD100864398 /* libz.dylib */; };
+		D49AB5201A86CCD700864398 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D49AB51F1A86CCD700864398 /* libsqlite3.dylib */; };
+		D4BEC82C1A86CEE0002B2AC2 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BEC82B1A86CEE0002B2AC2 /* Social.framework */; };
+		D4BEC82E1A86CF09002B2AC2 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BEC82D1A86CF09002B2AC2 /* Accounts.framework */; };
+		D4BEC8541A89A5FB002B2AC2 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4BEC8531A89A5FB002B2AC2 /* LoginViewController.m */; };
+		D4BEC8571A89A9AB002B2AC2 /* UserDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4BEC8561A89A9AB002B2AC2 /* UserDetailsViewController.m */; };
+		D4BEC85B1A8A9F2A002B2AC2 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4BEC8591A8A9F2A002B2AC2 /* LoginViewController.xib */; };
+		D4BEC85C1A8A9F2A002B2AC2 /* TableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4BEC85A1A8A9F2A002B2AC2 /* TableHeaderView.xib */; };
+		D4BEC8661A8AA0F9002B2AC2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BEC85D1A8AA0F9002B2AC2 /* Default-568h@2x.png */; };
+		D4BEC8671A8AA0F9002B2AC2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BEC85E1A8AA0F9002B2AC2 /* Default.png */; };
+		D4BEC8681A8AA0F9002B2AC2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BEC85F1A8AA0F9002B2AC2 /* Default@2x.png */; };
+		D4BEC8691A8AA0F9002B2AC2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BEC8601A8AA0F9002B2AC2 /* Icon.png */; };
+		D4BEC86A1A8AA0F9002B2AC2 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BEC8611A8AA0F9002B2AC2 /* Icon@2x.png */; };
+		D4BEC86B1A8AA0F9002B2AC2 /* login-button-small-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BEC8621A8AA0F9002B2AC2 /* login-button-small-pressed.png */; };
+		D4BEC86C1A8AA0F9002B2AC2 /* login-button-small-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BEC8631A8AA0F9002B2AC2 /* login-button-small-pressed@2x.png */; };
+		D4BEC86D1A8AA0F9002B2AC2 /* login-button-small.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BEC8641A8AA0F9002B2AC2 /* login-button-small.png */; };
+		D4BEC86E1A8AA0F9002B2AC2 /* login-button-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BEC8651A8AA0F9002B2AC2 /* login-button-small@2x.png */; };
+		D4BEC8701A8AA864002B2AC2 /* UserDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4BEC86F1A8AA864002B2AC2 /* UserDetailsViewController.xib */; };
+		D4E5841D1A99A31D00078A8E /* MeallListTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E5841B1A99A31D00078A8E /* MeallListTableTableViewController.m */; };
+		D4E5841E1A99A31D00078A8E /* MeallListTableTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4E5841C1A99A31D00078A8E /* MeallListTableTableViewController.xib */; };
+		EF3862027880A7BA95D1BB8C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FBB73AD9A021DDFB50E9CB /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +57,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28FBB73AD9A021DDFB50E9CB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6796D40A5FB4E586D2EE9C1F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		74B47CF4B0249FAE311C0DC6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D49AB4DE1A86CC1C00864398 /* Split.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Split.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D49AB4E21A86CC1C00864398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D49AB4E31A86CC1C00864398 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +73,38 @@
 		D49AB4F71A86CC1C00864398 /* SplitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D49AB4FC1A86CC1C00864398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D49AB4FD1A86CC1C00864398 /* SplitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplitTests.m; sourceTree = "<group>"; };
+		D49AB50B1A86CCA000864398 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D49AB50D1A86CCA400864398 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		D49AB50F1A86CCA900864398 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D49AB5111A86CCAD00864398 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D49AB5131A86CCB100864398 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		D49AB5151A86CCB600864398 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D49AB5171A86CCBC00864398 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D49AB5191A86CCC000864398 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		D49AB51B1A86CCC700864398 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D49AB51D1A86CCD100864398 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		D49AB51F1A86CCD700864398 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		D4BEC82B1A86CEE0002B2AC2 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		D4BEC82D1A86CF09002B2AC2 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		D4BEC8521A89A5FB002B2AC2 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		D4BEC8531A89A5FB002B2AC2 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		D4BEC8551A89A9AB002B2AC2 /* UserDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDetailsViewController.h; sourceTree = "<group>"; };
+		D4BEC8561A89A9AB002B2AC2 /* UserDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDetailsViewController.m; sourceTree = "<group>"; };
+		D4BEC8591A8A9F2A002B2AC2 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		D4BEC85A1A8A9F2A002B2AC2 /* TableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableHeaderView.xib; sourceTree = "<group>"; };
+		D4BEC85D1A8AA0F9002B2AC2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D4BEC85E1A8AA0F9002B2AC2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D4BEC85F1A8AA0F9002B2AC2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D4BEC8601A8AA0F9002B2AC2 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		D4BEC8611A8AA0F9002B2AC2 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		D4BEC8621A8AA0F9002B2AC2 /* login-button-small-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-button-small-pressed.png"; sourceTree = "<group>"; };
+		D4BEC8631A8AA0F9002B2AC2 /* login-button-small-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-button-small-pressed@2x.png"; sourceTree = "<group>"; };
+		D4BEC8641A8AA0F9002B2AC2 /* login-button-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-button-small.png"; sourceTree = "<group>"; };
+		D4BEC8651A8AA0F9002B2AC2 /* login-button-small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-button-small@2x.png"; sourceTree = "<group>"; };
+		D4BEC86F1A8AA864002B2AC2 /* UserDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserDetailsViewController.xib; sourceTree = "<group>"; };
+		D4E5841A1A99A31D00078A8E /* MeallListTableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeallListTableTableViewController.h; sourceTree = "<group>"; };
+		D4E5841B1A99A31D00078A8E /* MeallListTableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeallListTableTableViewController.m; sourceTree = "<group>"; };
+		D4E5841C1A99A31D00078A8E /* MeallListTableTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MeallListTableTableViewController.xib; path = Split/MeallListTableTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +112,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4BEC82E1A86CF09002B2AC2 /* Accounts.framework in Frameworks */,
+				D4BEC82C1A86CEE0002B2AC2 /* Social.framework in Frameworks */,
+				D49AB5201A86CCD700864398 /* libsqlite3.dylib in Frameworks */,
+				D49AB51E1A86CCD100864398 /* libz.dylib in Frameworks */,
+				D49AB51C1A86CCC700864398 /* SystemConfiguration.framework in Frameworks */,
+				D49AB51A1A86CCC000864398 /* StoreKit.framework in Frameworks */,
+				D49AB5181A86CCBC00864398 /* Security.framework in Frameworks */,
+				D49AB5161A86CCB600864398 /* QuartzCore.framework in Frameworks */,
+				D49AB5141A86CCB100864398 /* MobileCoreServices.framework in Frameworks */,
+				D49AB5121A86CCAD00864398 /* CoreLocation.framework in Frameworks */,
+				D49AB5101A86CCA900864398 /* CoreGraphics.framework in Frameworks */,
+				D49AB50E1A86CCA400864398 /* CFNetwork.framework in Frameworks */,
+				D49AB50C1A86CCA000864398 /* AudioToolbox.framework in Frameworks */,
+				EF3862027880A7BA95D1BB8C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +139,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		170BEF40FCFEF78BEFC7810D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D49AB51F1A86CCD700864398 /* libsqlite3.dylib */,
+				D49AB51D1A86CCD100864398 /* libz.dylib */,
+				D49AB51B1A86CCC700864398 /* SystemConfiguration.framework */,
+				D49AB5191A86CCC000864398 /* StoreKit.framework */,
+				D49AB5171A86CCBC00864398 /* Security.framework */,
+				D49AB5151A86CCB600864398 /* QuartzCore.framework */,
+				D49AB5131A86CCB100864398 /* MobileCoreServices.framework */,
+				D49AB5111A86CCAD00864398 /* CoreLocation.framework */,
+				D49AB50F1A86CCA900864398 /* CoreGraphics.framework */,
+				D49AB50D1A86CCA400864398 /* CFNetwork.framework */,
+				D49AB50B1A86CCA000864398 /* AudioToolbox.framework */,
+				D4BEC82D1A86CF09002B2AC2 /* Accounts.framework */,
+				D4BEC82B1A86CEE0002B2AC2 /* Social.framework */,
+				28FBB73AD9A021DDFB50E9CB /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5425CD1A97DF46710499E0B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74B47CF4B0249FAE311C0DC6 /* Pods.debug.xcconfig */,
+				6796D40A5FB4E586D2EE9C1F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D49AB4D51A86CC1C00864398 = {
 			isa = PBXGroup;
 			children = (
+				D4BEC8581A8A9F18002B2AC2 /* Resources */,
 				D49AB4E01A86CC1C00864398 /* Split */,
 				D49AB4FA1A86CC1C00864398 /* SplitTests */,
 				D49AB4DF1A86CC1C00864398 /* Products */,
+				5425CD1A97DF46710499E0B2 /* Pods */,
+				170BEF40FCFEF78BEFC7810D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,11 +193,17 @@
 		D49AB4E01A86CC1C00864398 /* Split */ = {
 			isa = PBXGroup;
 			children = (
+				D4BEC8551A89A9AB002B2AC2 /* UserDetailsViewController.h */,
+				D4BEC8561A89A9AB002B2AC2 /* UserDetailsViewController.m */,
 				D49AB4E51A86CC1C00864398 /* AppDelegate.h */,
 				D49AB4E61A86CC1C00864398 /* AppDelegate.m */,
 				D49AB4E81A86CC1C00864398 /* ViewController.h */,
 				D49AB4E91A86CC1C00864398 /* ViewController.m */,
 				D49AB4EB1A86CC1C00864398 /* Main.storyboard */,
+				D4BEC8521A89A5FB002B2AC2 /* LoginViewController.h */,
+				D4BEC8531A89A5FB002B2AC2 /* LoginViewController.m */,
+				D4E5841A1A99A31D00078A8E /* MeallListTableTableViewController.h */,
+				D4E5841B1A99A31D00078A8E /* MeallListTableTableViewController.m */,
 				D49AB4EE1A86CC1C00864398 /* Images.xcassets */,
 				D49AB4F01A86CC1C00864398 /* LaunchScreen.xib */,
 				D49AB4E11A86CC1C00864398 /* Supporting Files */,
@@ -119,6 +237,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D4BEC8581A8A9F18002B2AC2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D4BEC86F1A8AA864002B2AC2 /* UserDetailsViewController.xib */,
+				D4BEC85D1A8AA0F9002B2AC2 /* Default-568h@2x.png */,
+				D4BEC85E1A8AA0F9002B2AC2 /* Default.png */,
+				D4BEC85F1A8AA0F9002B2AC2 /* Default@2x.png */,
+				D4BEC8601A8AA0F9002B2AC2 /* Icon.png */,
+				D4BEC8611A8AA0F9002B2AC2 /* Icon@2x.png */,
+				D4BEC8621A8AA0F9002B2AC2 /* login-button-small-pressed.png */,
+				D4BEC8631A8AA0F9002B2AC2 /* login-button-small-pressed@2x.png */,
+				D4BEC8641A8AA0F9002B2AC2 /* login-button-small.png */,
+				D4E5841C1A99A31D00078A8E /* MeallListTableTableViewController.xib */,
+				D4BEC8651A8AA0F9002B2AC2 /* login-button-small@2x.png */,
+				D4BEC8591A8A9F2A002B2AC2 /* LoginViewController.xib */,
+				D4BEC85A1A8A9F2A002B2AC2 /* TableHeaderView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +264,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D49AB5011A86CC1C00864398 /* Build configuration list for PBXNativeTarget "Split" */;
 			buildPhases = (
+				CC26AA36DEC7BAD1CEA43576 /* Check Pods Manifest.lock */,
 				D49AB4DA1A86CC1C00864398 /* Sources */,
 				D49AB4DB1A86CC1C00864398 /* Frameworks */,
 				D49AB4DC1A86CC1C00864398 /* Resources */,
+				716A1AE44FCDA30C2361CC94 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,6 +308,7 @@
 				TargetAttributes = {
 					D49AB4DD1A86CC1C00864398 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 95HGQ34QQA;
 					};
 					D49AB4F61A86CC1C00864398 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -199,9 +340,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4BEC8691A8AA0F9002B2AC2 /* Icon.png in Resources */,
+				D4BEC86B1A8AA0F9002B2AC2 /* login-button-small-pressed.png in Resources */,
+				D4BEC8681A8AA0F9002B2AC2 /* Default@2x.png in Resources */,
+				D4BEC85B1A8A9F2A002B2AC2 /* LoginViewController.xib in Resources */,
 				D49AB4ED1A86CC1C00864398 /* Main.storyboard in Resources */,
+				D4BEC8701A8AA864002B2AC2 /* UserDetailsViewController.xib in Resources */,
 				D49AB4F21A86CC1C00864398 /* LaunchScreen.xib in Resources */,
+				D4BEC85C1A8A9F2A002B2AC2 /* TableHeaderView.xib in Resources */,
+				D4BEC86D1A8AA0F9002B2AC2 /* login-button-small.png in Resources */,
+				D4BEC86C1A8AA0F9002B2AC2 /* login-button-small-pressed@2x.png in Resources */,
+				D4BEC8671A8AA0F9002B2AC2 /* Default.png in Resources */,
 				D49AB4EF1A86CC1C00864398 /* Images.xcassets in Resources */,
+				D4E5841E1A99A31D00078A8E /* MeallListTableTableViewController.xib in Resources */,
+				D4BEC8661A8AA0F9002B2AC2 /* Default-568h@2x.png in Resources */,
+				D4BEC86E1A8AA0F9002B2AC2 /* login-button-small@2x.png in Resources */,
+				D4BEC86A1A8AA0F9002B2AC2 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,13 +368,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		716A1AE44FCDA30C2361CC94 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC26AA36DEC7BAD1CEA43576 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D49AB4DA1A86CC1C00864398 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4E5841D1A99A31D00078A8E /* MeallListTableTableViewController.m in Sources */,
+				D4BEC8541A89A5FB002B2AC2 /* LoginViewController.m in Sources */,
 				D49AB4EA1A86CC1C00864398 /* ViewController.m in Sources */,
 				D49AB4E71A86CC1C00864398 /* AppDelegate.m in Sources */,
+				D4BEC8571A89A9AB002B2AC2 /* UserDetailsViewController.m in Sources */,
 				D49AB4E41A86CC1C00864398 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,8 +531,14 @@
 		};
 		D49AB5021A86CC1C00864398 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74B47CF4B0249FAE311C0DC6 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Split",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Split/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -351,8 +547,14 @@
 		};
 		D49AB5031A86CC1C00864398 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6796D40A5FB4E586D2EE9C1F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Split",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Split/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +614,7 @@
 				D49AB5031A86CC1C00864398 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D49AB5041A86CC1C00864398 /* Build configuration list for PBXNativeTarget "SplitTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +623,7 @@
 				D49AB5061A86CC1C00864398 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
